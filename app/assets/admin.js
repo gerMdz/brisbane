@@ -1,12 +1,11 @@
 // CSS files
 import './css/styles.css'
-import './bootstrap';
+// import './bootstrap';
 
 // JS files
+import $ from 'jquery';
+// create global $ and jQuery variables
+global.$ = global.jQuery = $;
+import 'bootstrap/dist/js/bootstrap.bundle';
 import './js/scripts'
-import './js/datatables-simple-demo'
 
-import './assets/demo/datatables-demo'
-import './assets/demo/chart-pie-demo'
-import './assets/demo/chart-bar-demo'
-import './assets/demo/chart-area-demo'

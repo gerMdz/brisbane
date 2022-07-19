@@ -1,0 +1,5 @@
+import './assets/demo/chart-area-demo'
+import './assets/demo/chart-bar-demo'
+import './assets/demo/datatables-demo'
+import './assets/demo/chart-pie-demo'
+import './js/datatables-simple-demo'
